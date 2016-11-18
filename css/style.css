@@ -48,6 +48,7 @@ body{
 }
 .ba-hero__scroll:hover{
 	opacity: 0.4;
+	cursor: pointer;
 }
 /* main */
 .ba-about{
@@ -124,6 +125,34 @@ body{
 .ba-box__section:last-of-type{
 	padding-bottom: 0;	
 }
+.ba-width-29{
+	max-width: 29%;
+}
+.ba-width-42{
+	max-width: 42%;
+}
+.ba-link{
+	position: relative;
+	display: block;
+}
+.ba-link__title{
+	position: absolute;
+	font-size: 34px;
+	color: white;
+	left: 10%;
+	bottom: 10%;
+	text-transform: uppercase;
+	letter-spacing: .16em;
+	margin: 0;
+}
+.ba-link:hover{
+	opacity:.7;
+	cursor: pointer;
+}
+.ba-contacts{
+	margin-top:135px;
+}
+
 /* Typography */
 a,
 input[type="submit"],
@@ -137,8 +166,35 @@ input[type="submit"],
 input[type="button"],
 button,
 .ba-button{
-	display: inline-block;
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+	height: 60px;
+	background-color: #3C3C3C;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .16em;
+	line-height: 60px;
 }
+.ba-footer{
+	text-align: center;
+	margin-top: 55px;
+	padding-bottom: 60px;
+}
+.ba-footer__logo{
+	width: 5%;
+	height: auto;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+.ba-footer__info{
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
